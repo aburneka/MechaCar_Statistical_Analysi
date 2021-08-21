@@ -1,3 +1,4 @@
+
 # MechaCar_Statistical_Analysis
 
 AutosRUs’ newest prototype, the MechaCar, is suffering from production troubles that are blocking the manufacturing team’s progress. 
@@ -12,7 +13,7 @@ We performed the following statistical analysis for the MechaCar:
 ## Linear Regression to Predict MPG
 
 Image 1: MechaCar multiple linear regression to predict MPG summary statistics
-
+<img width="523" alt="multiple linear regression for MPG " src="https://user-images.githubusercontent.com/79999761/130334891-0d13bcd2-140b-4ccd-b164-9bd81c556edf.png">
 
 ## MechaCar multiple linear regression summary
 
@@ -25,34 +26,44 @@ While our model's statistics pass our r-squared (>0.7) and p-value (<0.05>) test
 ## Summary Statistics on Suspension Coils
 
 Image 2: PSI Summary Statistics for all Suspension Coil Manufacturing Lots
+<img width="430" alt="PSI summary stats" src="https://user-images.githubusercontent.com/79999761/130334897-060c1142-efcc-4d00-b64b-09d62edb4469.png">
 
-PSI Summary Statistics for all Suspension Coil Manufacturing Lots
 
 Based on the summary data in image 2 we can conclude the overall manufacturing lots in total meet the current specification requirements because the variance is less than 100 PSI.
 
-Image 3: PSI Summary Statistics by Suspension Coil Manufacturing Lots PSI Summary Statistics by Suspension Coil Manufacturing Lots
+Image 3: PSI Summary Statistics by Suspension Coil Manufacturing Lots
+
+<img width="571" alt="PSI summary stats by lot " src="https://user-images.githubusercontent.com/79999761/130334907-e93a5846-baac-4310-8f00-959b74339e1e.png">
+
 
 Based on the summary data in image 3, we can conclude Lots 1 and 2 meet the design specification for the MechaCar suspension coils because the statistical variance of the data in those lots does not exceed 100 PSI. Additionally, we can conclude manufacturing Lot 3 does not meet the design specifications as the statistical variance of 170 PSI for the lot exceeds the minimum variance of 100 PSI.
 
 T-Tests on Suspension Coils
 
 Total Lot
-Image 4: T-test for all manufacturing lots to population mean (1500 PSI) T-test for all manufacturing lots to population mean (1500 PSI)
+Image 4: T-test for all manufacturing lots for all manufacturing lots 
+
+<img width="444" alt="t-teswt for all manufacturing lots to pop  mean (1500 PSI)" src="https://user-images.githubusercontent.com/79999761/130334930-629661f5-ad93-4782-9a06-2f5c9a41f7ba.png">
+
 
 Assuming a significance level of 0.05 and a  p-value of 0.06 in the t-test data from image 4, we can conclude that the overall manufacturing lot does not provide enough evidence to eliminate the null hypotheses of the production population being similar to the mean assumption of 1500 PSI.
 
 Lot 1
 Image 5: T-test for Lot 1 to population mean (1500 PSI) T-test for Lot 1 to population mean (1500 PSI)
+<img width="501" alt="lot 1 t-test" src="https://user-images.githubusercontent.com/79999761/130334916-ddb3ae4b-c578-40a9-b154-e1027098e0ad.png">
 
 Based on p-value of 1 in the t-test data above, we can conclude that the overall manufacturing lot does not provide enough evidence to eliminate the null hypotheses of the production population being similar to the mean assumption of 1500 PSI.
 
 Lot 2
 Image 6: T-test for Lot 2 to population mean (1500 PSI) T-test for Lot 2 to population mean (1500 PSI)
+<img width="429" alt="lot 2 t-test" src="https://user-images.githubusercontent.com/79999761/130334946-5d53a010-ffb0-4879-b563-6552fbe2e44c.png">
 
 Based on p-value of 0.6 in the t-test data above, we can conclude that the overall manufacturing lot does not provide enough evidence to eliminate the null hypotheses of the production population similar to the mean assumption of 1500 PSI.
 
 Lot 3
 Image 7: T-test for Lot 3 to population mean (1500 PSI) T-test for Lot 3 to population mean (1500 PSI)
+<img width="421" alt="t-test lot 3" src="https://user-images.githubusercontent.com/79999761/130334948-364436c1-3e27-446a-8d86-eb2e6768923b.png">
+
 
 Based on p-value of 0.04 in the t-test data above, we can conclude that the overall manufacturing lot allows us to reject the null hypotheses of the production population being similar to the mean assumption of 1500 PSI. This would indicate an issue with this specific production lot.
 

@@ -26,6 +26,7 @@ While our model's statistics pass our r-squared (>0.7) and p-value (<0.05) test,
 ## Summary Statistics on Suspension Coils
 
 Image 2: PSI Summary Statistics for all Suspension Coil Manufacturing Lots
+
 <img width="430" alt="PSI summary stats" src="https://user-images.githubusercontent.com/79999761/130334897-060c1142-efcc-4d00-b64b-09d62edb4469.png">
 
 
